@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="funlist.ListTests" tests="16" skipped="0" failures="0" errors="0" timestamp="2024-09-10T03:08:55" hostname="LAPTOP-M2PRL5QA" time="0.061">
+  <properties/>
+  <testcase name="append()" classname="funlist.ListTests" time="0.018"/>
+  <testcase name="length()" classname="funlist.ListTests" time="0.001"/>
+  <testcase name="testToString()" classname="funlist.ListTests" time="0.001"/>
+  <testcase name="head()" classname="funlist.ListTests" time="0.001"/>
+  <testcase name="join()" classname="funlist.ListTests" time="0.001"/>
+  <testcase name="last()" classname="funlist.ListTests" time="0.001"/>
+  <testcase name="tail()" classname="funlist.ListTests" time="0.001"/>
+  <testcase name="drop1()" classname="funlist.ListTests" time="0.001"/>
+  <testcase name="drop2()" classname="funlist.ListTests" time="0.003"/>
+  <testcase name="getAt()" classname="funlist.ListTests" time="0.007"/>
+  <testcase name="take1()" classname="funlist.ListTests" time="0.001"/>
+  <testcase name="take2()" classname="funlist.ListTests" time="0.001"/>
+  <testcase name="testHashCode()" classname="funlist.ListTests" time="0.002"/>
+  <testcase name="reverse()" classname="funlist.ListTests" time="0.001"/>
+  <testcase name="testEquals()" classname="funlist.ListTests" time="0.001"/>
+  <testcase name="isEmpty()" classname="funlist.ListTests" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

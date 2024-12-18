@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MapTest0" tests="15" skipped="0" failures="0" errors="0" timestamp="2024-10-03T16:06:38" hostname="LAPTOP-M2PRL5QA" time="0.055">
+  <properties/>
+  <testcase name="testGetOrDefault()" classname="MapTest0" time="0.021"/>
+  <testcase name="testInsertIfAbsent_ExistingKey()" classname="MapTest0" time="0.001"/>
+  <testcase name="testReplaceNonExistingKey()" classname="MapTest0" time="0.001"/>
+  <testcase name="testInsertIfAbsent_NoChangeOnDuplicate()" classname="MapTest0" time="0.002"/>
+  <testcase name="testInsertIfAbsent_InsertNewKey()" classname="MapTest0" time="0.001"/>
+  <testcase name="testClear()" classname="MapTest0" time="0.002"/>
+  <testcase name="testMap0()" classname="MapTest0" time="0.005"/>
+  <testcase name="testContainsKey()" classname="MapTest0" time="0.001"/>
+  <testcase name="testInsertIfAbsent_MultipleInsertions()" classname="MapTest0" time="0.0"/>
+  <testcase name="testReplaceNoChangesForMissingKey()" classname="MapTest0" time="0.001"/>
+  <testcase name="testReplaceExistingKey()" classname="MapTest0" time="0.001"/>
+  <testcase name="testInsertIfAbsent_EmptyMap()" classname="MapTest0" time="0.001"/>
+  <testcase name="testReplaceMultipleTimes()" classname="MapTest0" time="0.002"/>
+  <testcase name="testIsEmpty()" classname="MapTest0" time="0.001"/>
+  <testcase name="testReplaceOnEmptyMap()" classname="MapTest0" time="0.001"/>
+  <system-out><![CDATA[a boy
+
++++++++++++++++++++++++++++++
+
+	b breeze
+a boy
+
++++++++++++++++++++++++++++++
+
+		r fire
+	b breeze
+a boy
+
++++++++++++++++++++++++++++++
+
+		r fire
+			d rose
+	b breeze
+a boy
+
++++++++++++++++++++++++++++++
+
+		r fire
+			d rose
+				c ice
+	b breeze
+a boy
+
+		r fire
+				new element
+			d rose
+				c ice
+	b breeze
+a boy
+
++++++++++++++++++++++++++++++
+
+		r fire
+				new element
+			d rose
+					cool ice
+				c ice
+	b breeze
+a boy
+
++++++++++++++++++++++++++++++
+
+		r fire
+				new element
+			d rose
+				c ice
+	b breeze
+a boy
+
++++++++++++++++++++++++++++++
+
+		r fire
+				new element
+			d rose
+				c ice
+	b breeze
+a boy
+
++++++++++++++++++++++++++++++
+
+	r fire
+			new element
+		d rose
+			c ice
+b breeze
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

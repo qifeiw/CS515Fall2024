@@ -1,0 +1,59 @@
+CS515 Lab 8
+
+
+Name: <QIFEI WANG>
+uid: <Your user name>
+Section: 2
+
+
+sort1 is Bubble Sort
+Your evidence: From the intermediate output after interrupting at 150 iterations, we see that small sections
+of the array are partially sorted, with only a few adjacent elements shifting positions.
+
+The sorting looks slower, which is consistent with Bubble Sort's time complexity of O(n^2)
+
+
+
+sort2 is Selection Sort
+Your evidence: After interrupting the sort at 150 iterations, the largest element seems to have moved toward the end,
+and the smaller element are shifted closer to the beginning. This behavior matches Selection Sort, which repeatedly selects
+the smallest remaining element and places it in its correct position.
+
+
+
+
+sort3 is Insertion Sort
+Your evidence: The output shows a pattern where small chunks of the list are sorted, and the sorted part grows larger with
+each iteration.
+
+
+
+
+sort4 is Heap Sort
+Your evidence: The final sorted output is fully ordered, suggesting the algorithm is efficient.
+Heap Sort typically involves building a max heap and repeatedly removing the largest element to form the sorted list.
+
+
+
+
+
+sort5 is Quicksort
+Your evidence: The array shows a quick sorting pattern with large section partially sorted even after 150 iterations,
+characteristic of Quicksort.
+
+
+
+
+——————————————————
+How many hours did you take to complete this assignment?
+3
+
+How difficult did you find this assignment from a scale of 0-10 where 10 represents the hardest?
+7
+What challenges did you encounter? And how did you address them?
+One of the main challenges was identifying each sorting algorithm based solely on its runtime behavior and partial outputs
+after a set number of iterations. Analyzing the intermediate sorting steps required careful observation of how elements
+moved within the list to distinguish similar algorithms like Bubble Sort, Selection Sort, and Insertion Sort.
+I addressed this by running multiple tests, analyzing the pattern of swaps or selections, and comparing them with the
+known behaviors of each sorting algorithm. Additionally, implementing timing functions helped confirm the expected time
+complexity, aiding in identifying faster algorithms like Quicksort and Heap Sort.

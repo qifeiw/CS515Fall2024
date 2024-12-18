@@ -1,0 +1,19 @@
+ŽInitial set:  [Alice: $18.0 x 40.0 hours] [Bob--off this week] [Cory: $15.0 x 38.0 hours] [Doug: $17.4 x 43.0 hours] [Leeroy--off this week]
+›Working workers:  [Alice: $18.0 x 44.0 hours] [Bob: $16.5 x 28.0 hours] [Cory: $15.0 x 42.0 hours] [Doug: $17.4 x 47.0 hours] [Leeroy: $17.0 x 4.0 hours]
+BPayroll: (Alice, 720.0) (Cory, 570.0) (Doug, 748.1999999999999) 
+gInitial Budget: (Finance, 20000.0) (Maintenance, 10000.0) (Procurement, 18000.0) (Shipping, 15000.0) 
+eFinal Budget: (Finance, 18531.8) (Maintenance, 10000.0) (Procurement, 17034.0) (Shipping, 15000.0) 
+Initial set:  -7 -4 1 2 6
+Negative values:  -7 -4
+Initial set:  -9 -3 0 5 8
+Negative values:  -9 -3
+ŽInitial set:  [Alice: $18.0 x 40.0 hours] [Bob--off this week] [Cory: $15.0 x 38.0 hours] [Doug: $17.4 x 43.0 hours] [Leeroy--off this week]
+eWorking workers:  [Alice: $18.0 x 40.0 hours] [Cory: $15.0 x 38.0 hours] [Doug: $17.4 x 43.0 hours]
+	6Initial map: (-7, -9) (-4, -3) (1, 0) (2, 5) (6, 8) 
+	JMap with keys added to values: (-7, -16) (-4, -7) (1, 1) (2, 7) (6, 14) 
+
+4Input map: (-7, -9) (-4, -3) (1, 0) (2, 5) (6, 8) 
+
+Result set:  -16 -7 1 7 14
+RInitial Headcount: (Finance, 3) (Maintenance, 6) (Procurement, 5) (Shipping, 4) 
+MFinal Budget: (Finance, 5) (Maintenance, 6) (Procurement, 7) (Shipping, 5) 

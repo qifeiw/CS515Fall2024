@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MapTest0" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-10-27T03:24:38" hostname="LAPTOP-M2PRL5QA" time="0.025">
+  <properties/>
+  <testcase name="testMap0()" classname="MapTest0" time="0.025"/>
+  <system-out><![CDATA[
+
+Map test 1
+
+
+	warm fire
+		red rose
+cute boy
+	cool breeze
+
+cool cute red warm 
+
+
+Map test 2
+
+
+			87 1
+						86 1
+					83 1
+						57 1
+				45 1
+		39 1
+	34 1
+			32 1
+		30 1
+29 1
+		26 1
+	23 1
+		22 1
+				21 1
+			12 1
+						11 1
+					5 1
+				2 1
+
+
+
+
+
+			87 2
+						86 1
+					83 1
+						57 1
+				45 1
+		39 2
+	34 2
+			32 1
+		30 1
+29 2
+		26 1
+	23 1
+		22 1
+				21 1
+			12 1
+						11 1
+					5 1
+				2 1
+
+
+2 5 11 12 21 22 23 26 29 30 32 34 39 45 57 83 86 87 
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="LambdaFunTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2024-09-30T14:15:00" hostname="LAPTOP-M2PRL5QA" time="0.133">
+  <properties/>
+  <testcase name="testGiveHolidayHours()" classname="LambdaFunTest" time="0.048"/>
+  <testcase name="testCreatePayroll()" classname="LambdaFunTest" time="0.011"/>
+  <testcase name="testUpdateBudget()" classname="LambdaFunTest" time="0.005"/>
+  <testcase name="testMultiplyCombos()" classname="LambdaFunTest" time="0.006"/>
+  <testcase name="testReturnNegative1()" classname="LambdaFunTest" time="0.008"/>
+  <testcase name="testReturnNegative2()" classname="LambdaFunTest" time="0.002"/>
+  <testcase name="testCollectWorkingWorkers()" classname="LambdaFunTest" time="0.004"/>
+  <testcase name="testAddKeysToValues()" classname="LambdaFunTest" time="0.005"/>
+  <testcase name="testAddKeysAndValuesIntoSet()" classname="LambdaFunTest" time="0.004"/>
+  <testcase name="testUpdateDepartmentCount()" classname="LambdaFunTest" time="0.004"/>
+  <system-out><![CDATA[Initial set:  [Alice: $18.0 x 40.0 hours] [Bob--off this week] [Cory: $15.0 x 38.0 hours] [Doug: $17.4 x 43.0 hours] [Leeroy--off this week]
+Working workers:  [Alice: $18.0 x 44.0 hours] [Bob: $16.5 x 28.0 hours] [Cory: $15.0 x 42.0 hours] [Doug: $17.4 x 47.0 hours] [Leeroy: $17.0 x 4.0 hours]
+Payroll: (Alice, 720.0) (Cory, 570.0) (Doug, 748.1999999999999) 
+Initial Budget: (Finance, 20000.0) (Maintenance, 10000.0) (Procurement, 18000.0) (Shipping, 15000.0) 
+Final Budget: (Finance, 18531.8) (Maintenance, 10000.0) (Procurement, 17034.0) (Shipping, 15000.0) 
+Initial set:  -7 -4 1 2 6
+Negative values:  -7 -4
+Initial set:  -9 -3 0 5 8
+Negative values:  -9 -3
+Initial set:  [Alice: $18.0 x 40.0 hours] [Bob--off this week] [Cory: $15.0 x 38.0 hours] [Doug: $17.4 x 43.0 hours] [Leeroy--off this week]
+Working workers:  [Alice: $18.0 x 40.0 hours] [Cory: $15.0 x 38.0 hours] [Doug: $17.4 x 43.0 hours]
+Initial map: (-7, -9) (-4, -3) (1, 0) (2, 5) (6, 8) 
+Map with keys added to values: (-7, -16) (-4, -7) (1, 1) (2, 7) (6, 14) 
+Input map: (-7, -9) (-4, -3) (1, 0) (2, 5) (6, 8) 
+Result set:  -16 -7 1 7 14
+Initial Headcount: (Finance, 3) (Maintenance, 6) (Procurement, 5) (Shipping, 4) 
+Final Budget: (Finance, 5) (Maintenance, 6) (Procurement, 7) (Shipping, 5) 
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

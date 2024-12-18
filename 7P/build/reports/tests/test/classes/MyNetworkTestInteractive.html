@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class MyNetworkTestInteractive</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class MyNetworkTestInteractive</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/default-package.html">default-package</a> &gt; MyNetworkTestInteractive</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">1</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.079s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">0%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Failed tests</a>
+</li>
+<li>
+<a href="#tab1">Tests</a>
+</li>
+<li>
+<a href="#tab2">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="testRun11()"></a>
+<h3 class="failures">testRun11()</h3>
+<span class="code">
+<pre>org.opentest4j.AssertionFailedError: expected: &lt;true&gt; but was: &lt;false&gt;
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at app//org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
+	at app//org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
+	at app//org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:31)
+	at app//org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:180)
+	at app//MyNetworkTestInteractive.testRun11(MyNetworkTestInteractive.java:127)
+	at java.base@21.0.4/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base@21.0.4/java.lang.reflect.Method.invoke(Method.java:580)
+	at app//org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)
+	at app//org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at app//org.junit.jupiter.api.AssertTimeoutPreemptively.lambda$submitTask$3(AssertTimeoutPreemptively.java:95)
+	at java.base@21.0.4/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base@21.0.4/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base@21.0.4/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base@21.0.4/java.lang.Thread.run(Thread.java:1583)
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="failures">testRun11()</td>
+<td class="failures">0.079s</td>
+<td class="failures">failed</td>
+</tr>
+</table>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>[MISMATCH] 0: Expected: &quot;&amp;lt;A&amp;gt;#&quot;, Actual: &quot;&amp;lt;A&amp;gt;# From: A&quot;
+[OK] 1: &quot;&quot;
+
+[OK] 0: &quot;&amp;lt;A&amp;gt;# From: A&quot;
+[MISMATCH] 1: Expected: &quot;From: A&quot;, Actual: &quot;&quot;
+[OK] 2: &quot;  To: A&quot;
+
+[OK] 2: &quot;  To: A&quot;
+[MISMATCH] 3: Expected: &quot;&amp;lt;A&amp;gt;#&quot;, Actual: &quot;&amp;lt;A&amp;gt;# From: A&quot;
+[OK] 4: &quot;&quot;
+
+[OK] 3: &quot;&amp;lt;A&amp;gt;# From: A&quot;
+[MISMATCH] 4: Expected: &quot;From: A&quot;, Actual: &quot;&quot;
+[OK] 5: &quot;  To: B&quot;
+
+[OK] 5: &quot;  To: B&quot;
+[MISMATCH] 6: Expected: &quot;&amp;lt;A&amp;gt;#&quot;, Actual: &quot;&amp;lt;A&amp;gt;# From: A&quot;
+[OK] 7: &quot;&quot;
+
+[OK] 6: &quot;&amp;lt;A&amp;gt;# From: A&quot;
+[MISMATCH] 7: Expected: &quot;From: A&quot;, Actual: &quot;&quot;
+[OK] 8: &quot;  To: C&quot;
+
+[OK] 8: &quot;  To: C&quot;
+[MISMATCH] 9: Expected: &quot;&amp;lt;A&amp;gt;#&quot;, Actual: &quot;&amp;lt;A&amp;gt;# From: A&quot;
+[OK] 10: &quot;&quot;
+
+[OK] 9: &quot;&amp;lt;A&amp;gt;# From: A&quot;
+[MISMATCH] 10: Expected: &quot;From: A&quot;, Actual: &quot;&quot;
+[OK] 11: &quot;  To: C&quot;
+
+[OK] 13: &quot;  To: D&quot;
+[MISMATCH] 14: Expected: &quot;&amp;lt;A&amp;gt;#&quot;, Actual: &quot;&amp;lt;A&amp;gt;# From: A&quot;
+[OK] 15: &quot;&quot;
+
+[OK] 14: &quot;&amp;lt;A&amp;gt;# From: A&quot;
+[MISMATCH] 15: Expected: &quot;From: A&quot;, Actual: &quot;&quot;
+[OK] 16: &quot;  To: C&quot;
+
+[OK] 19: &quot;  To: E&quot;
+[MISMATCH] 20: Expected: &quot;&amp;lt;A&amp;gt;#&quot;, Actual: &quot;&amp;lt;A&amp;gt;# From: A&quot;
+[OK] 21: &quot;&quot;
+
+[OK] 20: &quot;&amp;lt;A&amp;gt;# From: A&quot;
+[MISMATCH] 21: Expected: &quot;From: A&quot;, Actual: &quot;&quot;
+[OK] 22: &quot;  To: C&quot;
+
+[OK] 23: &quot;  To: F&quot;
+[MISMATCH] 24: Expected: &quot;&amp;lt;A&amp;gt;#&quot;, Actual: &quot;&amp;lt;A&amp;gt;# From: A&quot;
+[OK] 25: &quot;&quot;
+
+[OK] 24: &quot;&amp;lt;A&amp;gt;# From: A&quot;
+[MISMATCH] 25: Expected: &quot;From: A&quot;, Actual: &quot;&quot;
+[OK] 26: &quot;  To: C&quot;
+
+[OK] 28: &quot;  To: G&quot;
+[MISMATCH] 29: Expected: &quot;&amp;lt;A&amp;gt;#&quot;, Actual: &quot;&amp;lt;A&amp;gt;# No previous ssh history available.&quot;
+[OK] 30: &quot;&amp;lt;A&amp;gt;# &amp;lt;A&amp;gt;# &quot;
+
+[OK] 29: &quot;&amp;lt;A&amp;gt;# No previous ssh history available.&quot;
+[MISMATCH] 30: Expected: &quot;&quot;, Actual: &quot;&amp;lt;A&amp;gt;# &amp;lt;A&amp;gt;# &quot;
+
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.9</a> at 2024年11月15日 下午12:06:21</p>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MyNetworkTestInteractive" tests="1" skipped="0" failures="1" errors="0" timestamp="2024-11-15T17:06:21" hostname="LAPTOP-M2PRL5QA" time="0.079">
+  <properties/>
+  <testcase name="testRun11()" classname="MyNetworkTestInteractive" time="0.079">
+    <failure message="org.opentest4j.AssertionFailedError: expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;true&gt; but was: &lt;false&gt;
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at app//org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
+	at app//org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
+	at app//org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:31)
+	at app//org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:180)
+	at app//MyNetworkTestInteractive.testRun11(MyNetworkTestInteractive.java:127)
+	at java.base@21.0.4/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base@21.0.4/java.lang.reflect.Method.invoke(Method.java:580)
+	at app//org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)
+	at app//org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at app//org.junit.jupiter.api.AssertTimeoutPreemptively.lambda$submitTask$3(AssertTimeoutPreemptively.java:95)
+	at java.base@21.0.4/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base@21.0.4/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base@21.0.4/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base@21.0.4/java.lang.Thread.run(Thread.java:1583)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[MISMATCH] 0: Expected: "&lt;A&gt;#", Actual: "&lt;A&gt;# From: A"
+[OK] 1: ""
+
+[OK] 0: "&lt;A&gt;# From: A"
+[MISMATCH] 1: Expected: "From: A", Actual: ""
+[OK] 2: "  To: A"
+
+[OK] 2: "  To: A"
+[MISMATCH] 3: Expected: "&lt;A&gt;#", Actual: "&lt;A&gt;# From: A"
+[OK] 4: ""
+
+[OK] 3: "&lt;A&gt;# From: A"
+[MISMATCH] 4: Expected: "From: A", Actual: ""
+[OK] 5: "  To: B"
+
+[OK] 5: "  To: B"
+[MISMATCH] 6: Expected: "&lt;A&gt;#", Actual: "&lt;A&gt;# From: A"
+[OK] 7: ""
+
+[OK] 6: "&lt;A&gt;# From: A"
+[MISMATCH] 7: Expected: "From: A", Actual: ""
+[OK] 8: "  To: C"
+
+[OK] 8: "  To: C"
+[MISMATCH] 9: Expected: "&lt;A&gt;#", Actual: "&lt;A&gt;# From: A"
+[OK] 10: ""
+
+[OK] 9: "&lt;A&gt;# From: A"
+[MISMATCH] 10: Expected: "From: A", Actual: ""
+[OK] 11: "  To: C"
+
+[OK] 13: "  To: D"
+[MISMATCH] 14: Expected: "&lt;A&gt;#", Actual: "&lt;A&gt;# From: A"
+[OK] 15: ""
+
+[OK] 14: "&lt;A&gt;# From: A"
+[MISMATCH] 15: Expected: "From: A", Actual: ""
+[OK] 16: "  To: C"
+
+[OK] 19: "  To: E"
+[MISMATCH] 20: Expected: "&lt;A&gt;#", Actual: "&lt;A&gt;# From: A"
+[OK] 21: ""
+
+[OK] 20: "&lt;A&gt;# From: A"
+[MISMATCH] 21: Expected: "From: A", Actual: ""
+[OK] 22: "  To: C"
+
+[OK] 23: "  To: F"
+[MISMATCH] 24: Expected: "&lt;A&gt;#", Actual: "&lt;A&gt;# From: A"
+[OK] 25: ""
+
+[OK] 24: "&lt;A&gt;# From: A"
+[MISMATCH] 25: Expected: "From: A", Actual: ""
+[OK] 26: "  To: C"
+
+[OK] 28: "  To: G"
+[MISMATCH] 29: Expected: "&lt;A&gt;#", Actual: "&lt;A&gt;# No previous ssh history available."
+[OK] 30: "&lt;A&gt;# &lt;A&gt;# "
+
+[OK] 29: "&lt;A&gt;# No previous ssh history available."
+[MISMATCH] 30: Expected: "", Actual: "&lt;A&gt;# &lt;A&gt;# "
+
+]]></system-err>
+</testsuite>
